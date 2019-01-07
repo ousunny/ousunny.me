@@ -4,7 +4,9 @@
   "description": "Sunny's Portfolio site",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "webpack-dev-server",
+    "clean": "rm -rf docs",
+    "build": "npm run clean && webpack"
   },
   "author": "Sunny Ou",
   "license": "ISC",
