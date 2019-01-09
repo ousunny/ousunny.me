@@ -1,11 +1,11 @@
 .site-header {
   background-color: $midtones;
-  min-height: 11.25rem;
+  width: 100%;
+  min-height: 4.5em;
 
   &__burger-menu {
-    margin: 0.8em;
+    margin: 1em;
     position: absolute;
-    display: block;
     right: 0;
 
     span {
