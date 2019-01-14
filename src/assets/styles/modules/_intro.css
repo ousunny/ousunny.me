@@ -1,5 +1,14 @@
 .intro {
-  margin-top: 5rem;
-  font-size: 2.5rem;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__text {
+    font-size: 2.5rem;
+  }
+
+  &__social {
+    margin-top: 0.8em;
+  }
 }
