@@ -1,10 +1,6 @@
 .page-section {
-  padding: 5em 0;
+  padding-top: 5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  &--no-padding-bottom {
-    padding-bottom: 0;
-  }
 }
