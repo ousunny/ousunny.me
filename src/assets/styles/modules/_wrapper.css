@@ -1,4 +1,9 @@
 .wrapper {
   padding-left: 0.5em;
   padding-right: 0.5em;
+
+  @mixin small {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
 }
