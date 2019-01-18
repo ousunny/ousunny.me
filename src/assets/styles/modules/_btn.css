@@ -4,12 +4,30 @@
   color: #fff;
   border-radius: 0.625rem;
 
+  @mixin mediumPortrait {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.3rem;
+  }
+
+  @mixin large {
+    padding: 0.6rem 0.9rem;
+    font-size: 1.5rem;
+  }
+
   &--margin-right {
     margin-right: 0.3em;
   }
 
   &--action {
     background-color: $accents;
+
+    @mixin mediumPortrait {
+      padding: 0.7rem 1.3rem;
+    }
+
+    @mixin large {
+      padding: 0.8rem 1.4rem;
+    }
   }
 
   &--center {
@@ -18,5 +36,13 @@
 
   &--large {
     font-size: 1.3rem;
+
+    @mixin mediumPortrait {
+      font-size: 1.8rem;
+    }
+
+    @mixin large {
+      font-size: 2rem;
+    }
   }
 }

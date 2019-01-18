@@ -6,6 +6,14 @@
 
   &__text {
     font-size: 2.5rem;
+
+    @mixin mediumPortrait {
+      font-size: 5rem;
+    }
+
+    @mixin large {
+      font-size: 5rem;
+    }
   }
 
   &__social {

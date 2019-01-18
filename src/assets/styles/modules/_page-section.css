@@ -8,7 +8,14 @@
     padding-bottom: 5em;
   }
 
-  &--full-page-when-large {
-    min-height: 100vh;
+  &--full-page-when-medium {
+    @mixin medium {
+      margin-top: -4.5em;
+      min-height: 100vh;
+    }
+
+    @mixin large {
+      margin-top: 0;
+    }
   }
 }

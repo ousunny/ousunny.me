@@ -4,4 +4,12 @@
   &--margin-right {
     margin-right: 0.5em;
   }
+
+  @mixin mediumPortrait {
+    font-size: 4.3rem;
+  }
+
+  @mixin large {
+    font-size: 4.6rem;
+  }
 }

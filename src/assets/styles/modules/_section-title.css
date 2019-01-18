@@ -2,4 +2,12 @@
   margin-bottom: 0.7em;
   font-size: 2rem;
   align-self: center;
+
+  @mixin mediumPortrait {
+    font-size: 3.8rem;
+  }
+
+  @mixin large {
+    font-size: 4rem;
+  }
 }
