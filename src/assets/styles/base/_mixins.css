@@ -9,3 +9,9 @@
     @mixin-content;
   }
 }
+
+@define-mixin large {
+  @media (min-width: 1024px) {
+    @mixin-content;
+  }
+}
