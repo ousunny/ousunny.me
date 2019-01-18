@@ -43,5 +43,13 @@
         }
       }
     }
+
+    @mixin large {
+      display: none;
+    }
+  }
+
+  @mixin large {
+    position: fixed;
   }
 }
