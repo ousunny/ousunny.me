@@ -3,6 +3,8 @@
   padding: 0.7em;
   border: 1px solid $shadows;
   border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
 
   &__title {
     font-size: 1.5rem;
@@ -11,9 +13,15 @@
 
   &__description {
     margin-bottom: 0.5em;
+    flex-grow: 1;
   }
 
   &--large-margin-bottom {
     margin-bottom: 1.5em;
+  }
+
+  @mixin medium {
+    flex-basis: 40%;
+    margin: 0 1.5em 1.5em 1.5em;
   }
 }
