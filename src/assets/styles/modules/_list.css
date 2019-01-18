@@ -5,6 +5,10 @@
     flex-direction: column;
   }
 
+  &--horizontal-center {
+    justify-content: center;
+  }
+
   &--margin-bottom {
     margin-bottom: 0.5em;
   }
