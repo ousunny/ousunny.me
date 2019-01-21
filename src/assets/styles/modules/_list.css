@@ -1,11 +1,11 @@
 .list {
   display: flex;
+  flex-wrap: wrap;
 
   &--vertical-until-medium {
     flex-direction: column;
 
     @mixin medium {
-      flex-wrap: wrap;
       flex-direction: row;
       justify-content: center;
     }
