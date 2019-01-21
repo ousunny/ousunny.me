@@ -1,9 +1,19 @@
 .wrapper {
-  padding-left: 0.5em;
   padding-right: 0.5em;
+  padding-left: 0.5em;
 
   @mixin small {
-    padding-left: 1.5em;
     padding-right: 1.5em;
+    padding-left: 1.5em;
+  }
+
+  @mixin medium {
+    padding-right: 5em;
+    padding-left: 5em;
+  }
+
+  @mixin large {
+    padding-right: 10em;
+    padding-left: 10em;
   }
 }
