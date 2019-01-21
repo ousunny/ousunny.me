@@ -37,10 +37,6 @@
   &--large {
     font-size: 1.3rem;
 
-    @mixin mediumPortrait {
-      font-size: 1.8rem;
-    }
-
     @mixin large {
       font-size: 2rem;
     }

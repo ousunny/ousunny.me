@@ -10,12 +10,6 @@
   }
 }
 
-@define-mixin mediumPortrait {
-  @media (min-width: 600px) and (orientation: portrait) {
-    @mixin-content;
-  }
-}
-
 @define-mixin large {
   @media (min-width: 1200px) {
     @mixin-content;
