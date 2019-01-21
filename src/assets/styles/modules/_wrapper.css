@@ -8,12 +8,11 @@
   }
 
   @mixin medium {
-    padding-right: 5em;
-    padding-left: 5em;
+    margin: 0 auto;
+    max-width: 80%;
   }
 
   @mixin large {
-    padding-right: 10em;
-    padding-left: 10em;
+    max-width: 70%;
   }
 }
