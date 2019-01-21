@@ -44,9 +44,17 @@
       }
     }
 
+    @mixin medium {
+      margin: 1.3em;
+    }
+
     @mixin large {
       display: none;
     }
+  }
+
+  @mixin medium {
+    min-height: 5em;
   }
 
   @mixin large {
