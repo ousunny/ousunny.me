@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: center;
 
-  &--bg-shadows {
-    background-color: $shadows;
+  &--bg-midtones {
+    background-color: $midtones;
   }
 
   &--padding-bottom {
