@@ -1,7 +1,7 @@
 .site-header {
   background-color: $midtones;
   width: 100%;
-  min-height: 4.5em;
+  position: absolute;
 
   &__burger-menu {
     margin: 1em;
