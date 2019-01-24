@@ -15,4 +15,8 @@
   @mixin large {
     max-width: 70%;
   }
+
+  &--full-width {
+    max-width: 100%;
+  }
 }
