@@ -10,7 +10,7 @@ class MobileMenu {
 
   toggleMenu() {
     this.burgerMenu.toggleClass('site-header__burger-menu--close');
-    this.primaryNav.slideToggle();
+    this.primaryNav.toggleClass('primary-nav--show');
   }
 }
 
