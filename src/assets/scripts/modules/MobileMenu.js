@@ -2,8 +2,8 @@ import $ from 'jquery';
 
 class MobileMenu {
   constructor() {
-    this.burgerMenu = $('.site-header__burger-menu');
-    this.primaryNav = $('.primary-nav');
+    this.burgerMenu = $('.js-burger-menu');
+    this.primaryNav = $('.js-primary-nav');
 
     this.burgerMenu.click(this.toggleMenu.bind(this));
   }
