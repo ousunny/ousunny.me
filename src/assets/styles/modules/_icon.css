@@ -1,6 +1,10 @@
 .icon {
   font-size: 2.3rem;
 
+  &--midtones {
+    color: $midtones;
+  }
+
   &--margin-right {
     margin-right: 0.5em;
   }
