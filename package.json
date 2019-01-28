@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "start:dev": "webpack-dev-server",
-    "clean": "rm -rf docs",
+    "clean": "rm docs/index.html && rm -rf docs/assets",
     "build": "npm run clean && webpack"
   },
   "author": "Sunny Ou",
