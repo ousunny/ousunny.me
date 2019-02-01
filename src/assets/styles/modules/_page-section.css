@@ -8,6 +8,10 @@
     background-color: $midtones;
   }
 
+  &--large-padding-top {
+    padding-top: 7em;
+  }
+
   &--padding-bottom {
     padding-bottom: 5em;
   }
