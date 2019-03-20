@@ -57,8 +57,4 @@
   @mixin medium {
     min-height: 5em;
   }
-
-  @mixin large {
-    position: fixed;
-  }
 }
