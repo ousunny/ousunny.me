@@ -22,6 +22,7 @@
     @mixin large {
       display: inline-block;
       font-size: 1.6rem;
+      color: $highlights;
     }
   }
 
@@ -30,7 +31,7 @@
   }
 
   @mixin large {
-    opacity: 1;
+    opacity: 0.9;
     background-color: transparent;
     padding: 0.7em 1.5em;
     display: block;
